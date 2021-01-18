@@ -1,0 +1,34 @@
+{
+  "name": "fileform",
+  "version": "0.1.0",
+  "description": "In-place scaffolding with file templates",
+  "license": "MIT",
+  "author": "Alec Larson",
+  "repository": "alloc/fileform",
+  "prettier": "@alloc/prettier-config",
+  "files": [
+    "src",
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "prepare": "yarn build"
+  },
+  "dependencies": {
+    "@cush/exec": "^1.6.3",
+    "enquirer": "^2.3.6",
+    "fs-extra": "^9.0.1",
+    "lodge": "^0.1.6",
+    "mini-hb": "^0.1.4",
+    "recrawl-sync": "^2.0.0",
+    "sade": "^1.7.4"
+  },
+  "devDependencies": {
+    "@alloc/prettier-config": "^1.0.0",
+    "@types/fs-extra": "^9.0.6",
+    "@types/sade": "^1.7.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}

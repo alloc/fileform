@@ -1,0 +1,190 @@
+dependencies:
+  '@cush/exec': 1.6.3
+  enquirer: 2.3.6
+  fs-extra: 9.0.1
+  lodge: 0.1.6
+  mini-hb: 0.1.4
+  recrawl-sync: 2.0.0
+  sade: 1.7.4
+devDependencies:
+  '@alloc/prettier-config': 1.0.0
+  '@types/fs-extra': 9.0.6
+  '@types/sade': 1.7.2
+  prettier: 2.2.1
+  typescript: 4.1.3
+lockfileVersion: 5.2
+packages:
+  /@alloc/prettier-config/1.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-xm50V1qxSdTh1O1fKA+gqcU605YSnxfq6HwtYSFU3fRsKMFnUSuSOxqSAPI7y2sRxqPed2EIuGmNn107LVQM6g==
+  /@cush/exec/1.6.3:
+    dependencies:
+      shell-quote: 1.7.2
+      type-error: 1.0.3
+    dev: false
+    resolution:
+      integrity: sha512-iz3mJD9Gt6xjPOpggC428VzQtK+Wtc7Gh9w/Q2J1iDCuhAcOvd1Ro4tEz0V2RAWOs/tCqL23wBunOHu3aUw5ug==
+  /@cush/relative/0.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-pnF2c2hhHyC520CmYYKq3hGOS0kipkGBgRnp3z7wx7lDzykaUwQW3wPQmiX9YtbHUcgUu1qQtzstixmeYMwQoA==
+  /@types/fs-extra/9.0.6:
+    dependencies:
+      '@types/node': 14.14.21
+    dev: true
+    resolution:
+      integrity: sha512-ecNRHw4clCkowNOBJH1e77nvbPxHYnWIXMv1IAoG/9+MYGkgoyr3Ppxr7XYFNL41V422EDhyV4/4SSK8L2mlig==
+  /@types/mri/1.1.0:
+    dev: true
+    resolution:
+      integrity: sha512-fMl88ZoZXOB7VKazJ6wUMpZc9QIn+jcigSFRf2K/rrw4DcXn+/uGxlWX8DDlcE7JkwgIZ7BDH+JgxZPlc/Ap3g==
+  /@types/node/14.14.21:
+    dev: true
+    resolution:
+      integrity: sha512-cHYfKsnwllYhjOzuC5q1VpguABBeecUp24yFluHpn/BQaVxB1CuQ1FSRZCzrPxrkIfWISXV2LbeoBthLWg0+0A==
+  /@types/sade/1.7.2:
+    dependencies:
+      '@types/mri': 1.1.0
+    dev: true
+    resolution:
+      integrity: sha512-qVHZ70gLk2tCAqRanVOBVKM8og7eBhnWx1cdHMj8J3t4QF+PzIS9+pzZWZEx9ghsO1DDeGOTgyq5aQd5Bt/2dw==
+  /ansi-colors/4.1.1:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-JoX0apGbHaUJBNl6yF+p6JAFYZ666/hhCGKN5t9QFjbJQKUU/g8MNbFDbvfrgKXvI1QpZplPOnwIo99lX/AAmA==
+  /at-least-node/1.0.0:
+    dev: false
+    engines:
+      node: '>= 4.0.0'
+    resolution:
+      integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
+  /enquirer/2.3.6:
+    dependencies:
+      ansi-colors: 4.1.1
+    dev: false
+    engines:
+      node: '>=8.6'
+    resolution:
+      integrity: sha512-yjNnPr315/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ/odMA7cRkjhsPbltwBOrLg==
+  /fs-extra/9.0.1:
+    dependencies:
+      at-least-node: 1.0.0
+      graceful-fs: 4.2.4
+      jsonfile: 6.1.0
+      universalify: 1.0.0
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-h2iAoN838FqAFJY2/qVpzFXy+EBxfVE220PalAqQLDVsFOHLJrZvut5puAbCdNv6WJk+B8ihI+k0c7JK5erwqQ==
+  /glob-regex/0.3.2:
+    dev: false
+    resolution:
+      integrity: sha512-m5blUd3/OqDTWwzBBtWBPrGlAzatRywHameHeekAZyZrskYouOGdNB8T/q6JucucvJXtOuyHIn0/Yia7iDasDw==
+  /graceful-fs/4.2.4:
+    dev: false
+    resolution:
+      integrity: sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
+  /has-flag/3.0.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+  /jsonfile/6.1.0:
+    dependencies:
+      universalify: 2.0.0
+    dev: false
+    optionalDependencies:
+      graceful-fs: 4.2.4
+    resolution:
+      integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==
+  /lodge/0.1.6:
+    dependencies:
+      has-flag: 3.0.0
+    dev: false
+    resolution:
+      integrity: sha512-KmaT/444yhIX93upBOikc1nxwm4hZ3leTQyskuTjyLwPysgbVhtry0yomCqx2S1KA/K5RzYYP5LmtNHBapXuFg==
+  /mini-hb/0.1.4:
+    dev: false
+    engines:
+      node: '>=8'
+      typescript: '>=3'
+    resolution:
+      integrity: sha512-ZuF0TgooGLdDnJnuj41lIFJAeKhXvV/f8b4rckgE5gq/lpsCmsCcV1RACJGInCZMZ8bdj2Gcsqf0lnk5FrDacw==
+  /mri/1.1.6:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-oi1b3MfbyGa7FJMP9GmLTttni5JoICpYBRlq+x5V16fZbLsnL9N3wFqqIm/nIG43FjUFkFh9Epzp/kzUGUnJxQ==
+  /prettier/2.2.1:
+    dev: true
+    engines:
+      node: '>=10.13.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
+  /recrawl-sync/2.0.0:
+    dependencies:
+      '@cush/relative': 0.1.0
+      glob-regex: 0.3.2
+      tslib: 1.14.1
+    dev: false
+    resolution:
+      integrity: sha512-RYXv9NeY+z8HAzWf0uDy2ntDpRwWT3SG6yHMWKjOhPdtbo2T/HeeugF9ydiI3kOqbQyMF/5bOUSb0JPRaB1C5w==
+  /sade/1.7.4:
+    dependencies:
+      mri: 1.1.6
+    dev: false
+    engines:
+      node: '>= 6'
+    resolution:
+      integrity: sha512-y5yauMD93rX840MwUJr7C1ysLFBgMspsdTo4UVrDg3fXDvtwOyIqykhVAAm6fk/3au77773itJStObgK+LKaiA==
+  /shell-quote/1.7.2:
+    dev: false
+    resolution:
+      integrity: sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
+  /tslib/1.14.1:
+    dev: false
+    resolution:
+      integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+  /type-error/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-hlNA4NwwjtL9clb8nv+x/5C45uzxND+N+h+/y3z2dYdubGSmdtNtJjHVH4E68ZHR98Bkav4ACf1lmTZepc/4sg==
+  /typescript/4.1.3:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-B3ZIOf1IKeH2ixgHhj6la6xdwR9QrLC5d1VKeCSY4tvkqhF2eqd9O7txNlS0PO3GrBAFIdr3L1ndNwteUbZLYg==
+  /universalify/1.0.0:
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    resolution:
+      integrity: sha512-rb6X1W158d7pRQBg5gkR8uPaSfiids68LTJQYOtEUhoJUWBdaQHsuT/EUduxXYxcrt4r5PJ4fuHW1MHT6p0qug==
+  /universalify/2.0.0:
+    dev: false
+    engines:
+      node: '>= 10.0.0'
+    resolution:
+      integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
+specifiers:
+  '@alloc/prettier-config': ^1.0.0
+  '@cush/exec': ^1.6.3
+  '@types/fs-extra': ^9.0.6
+  '@types/sade': ^1.7.2
+  enquirer: ^2.3.6
+  fs-extra: ^9.0.1
+  lodge: ^0.1.6
+  mini-hb: ^0.1.4
+  prettier: ^2.2.1
+  recrawl-sync: ^2.0.0
+  sade: ^1.7.4
+  typescript: ^4.1.3
