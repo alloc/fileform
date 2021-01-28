@@ -6,6 +6,9 @@
 
 In-place scaffolding with file templates
 
+<img src="./img/1.png" width="50%" />
+<img src="./img/2.png" width="50%" />
+
 ## Usage
 
 Install it globally.
