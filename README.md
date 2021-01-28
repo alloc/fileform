@@ -11,7 +11,7 @@ In-place scaffolding with file templates
 Install it globally.
 
 ```sh
-pnpm i -g fileform
+npm i -g fileform
 ```
 
 Run it within a directory that contains a `fileform.config.js` file.
@@ -31,7 +31,7 @@ Fileform can `cd` to the new directory if you invoke it with `source`.
 Try adding an `alias` to your `~/.bashrc` or similar.
 
 ```sh
-alias fileform="source $(pnpm bin -g)/fileform"
+alias fileform="source $(npm bin -g)/fileform"
 ```
 
 &nbsp;
