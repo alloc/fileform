@@ -6,6 +6,7 @@
   "author": "Alec Larson",
   "repository": "alloc/fileform",
   "prettier": "@alloc/prettier-config",
+  "bin": "bin/fileform.sh",
   "files": [
     "src",
     "bin",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "@cush/exec": "^1.6.3",
+    "degit": "^2.8.0",
     "enquirer": "^2.3.6",
     "fs-extra": "^9.0.1",
     "lodge": "^0.1.6",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@alloc/prettier-config": "^1.0.0",
+    "@types/degit": "^2.8.0",
     "@types/fs-extra": "^9.0.6",
     "@types/sade": "^1.7.2",
     "prettier": "^2.2.1",

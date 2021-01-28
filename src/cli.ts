@@ -4,12 +4,26 @@ import Enquirer from 'enquirer'
 import { crawl } from 'recrawl-sync'
 import { hb } from 'mini-hb'
 import exec from '@cush/exec'
+import degit from 'degit'
 import log from 'lodge'
 import fs from 'fs-extra'
 
-const cli = sade('fileform', true)
+const cli = sade('fileform [repo] [dest]', true)
 
-cli.action(async () => {
+cli.action(async (repo?: string, dest?: string) => {
+  if (repo) {
+    if (!dest) {
+      const example = `${log.coal('fileform [repo]')} ${log.red('[dest]')}`
+      throw fatal(`Must provide a destination\n\n    ${example}`)
+    }
+    try {
+      await degit(repo, {}).clone(dest)
+    } catch (e) {
+      fatal('degit failed: ' + e.message)
+    }
+    process.chdir(dest)
+  }
+
   const configPath = 'fileform.config.js'
   if (!fs.existsSync(configPath)) {
     fatal('Config must exist:', log.yellow(configPath))

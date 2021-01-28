@@ -20,10 +20,18 @@ Run it within a directory that contains a `fileform.config.js` file.
 fileform
 ```
 
-Combine it with `degit` for optimal scaffolding.
+Pass a Github repository and a destination, and Fileform will use [`degit`](https://www.npmjs.com/package/degit).
 
 ```sh
-npx degit user/repo && npx fileform
+fileform aleclarson/typescript-template hello-world
+```
+
+Fileform can `cd` to the new directory if you invoke it with `source`.
+
+Try adding an `alias` to your `~/.bashrc` or similar.
+
+```sh
+alias fileform="source $(pnpm bin -g)/fileform"
 ```
 
 &nbsp;
