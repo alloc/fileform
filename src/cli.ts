@@ -92,6 +92,8 @@ cli.action(async (repo?: string, dest?: string) => {
   }
 
   fs.removeSync(configPath)
+
+  exec.sync('git init')
 })
 
 cli.parse(process.argv)
