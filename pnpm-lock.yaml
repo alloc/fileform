@@ -1,5 +1,6 @@
 dependencies:
   '@cush/exec': 1.6.3
+  degit: 2.8.0
   enquirer: 2.3.6
   fs-extra: 9.0.1
   lodge: 0.1.6
@@ -8,6 +9,7 @@ dependencies:
   sade: 1.7.4
 devDependencies:
   '@alloc/prettier-config': 1.0.0
+  '@types/degit': 2.8.0
   '@types/fs-extra': 9.0.6
   '@types/sade': 1.7.2
   prettier: 2.2.1
@@ -29,6 +31,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-pnF2c2hhHyC520CmYYKq3hGOS0kipkGBgRnp3z7wx7lDzykaUwQW3wPQmiX9YtbHUcgUu1qQtzstixmeYMwQoA==
+  /@types/degit/2.8.0:
+    dev: true
+    resolution:
+      integrity: sha512-ItZRzGAgbxxWCphgo4GAYi5onWtEnuJzODX8xvTAYPVLAoQe+CjxfEMr1N7G27wCVFma6K0iKTfxRQ2N2A/Mjw==
   /@types/fs-extra/9.0.6:
     dependencies:
       '@types/node': 14.14.21
@@ -61,6 +67,13 @@ packages:
       node: '>= 4.0.0'
     resolution:
       integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
+  /degit/2.8.0:
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-nxQr1Ep4NSGDIqQ3HSMNgnPYaxPfPhHdrpgSNO2EczO86zN7NJJ1i/59GM25vgC45ANQUazZ/3Z+iyeZCmGwhg==
   /enquirer/2.3.6:
     dependencies:
       ansi-colors: 4.1.1
@@ -178,8 +191,10 @@ packages:
 specifiers:
   '@alloc/prettier-config': ^1.0.0
   '@cush/exec': ^1.6.3
+  '@types/degit': ^2.8.0
   '@types/fs-extra': ^9.0.6
   '@types/sade': ^1.7.2
+  degit: ^2.8.0
   enquirer: ^2.3.6
   fs-extra: ^9.0.1
   lodge: ^0.1.6
